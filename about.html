@@ -8,6 +8,10 @@ font color: #ffffff
 background color: 0 or #e05151
 font size: 26 or 20
 padding: 7
+<!-[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]->
+
 -->
 
 <!DOCTYPE html>
@@ -18,6 +22,8 @@ padding: 7
         <title>About Me</title>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/pics/favicon.png">
         <style type="text/css" media="screen">
 
             body {
@@ -95,6 +101,7 @@ padding: 7
                 	font-size: 20px;
                 	text-decoration: none;
                 	position: relative;
+                	font-family: 'Oswald', sans-serif;
                 }
                 a:hover { text-decoration: none; }
                 a:before {
@@ -152,18 +159,14 @@ padding: 7
     <body>
 
     	<div id="header">
-
-    		<div id="logo">
-    			<a href="index.html"> <img src="assets/pics/logo.png"> </a>
-    		</div>
-
+    		<div id="logo"> <img src="assets/pics/logo.png"> </div>
     		<div id="nav">
     			<ul id="nav-buttons">
+    				<li> <a href="index.html">home</a></li>
     				<li> <a href="about.html">about</a></li>
     				<li> <a href="404.html">contact</a></li>
     			</ul>
     		</div>
-
         </div>
 
         <div id="blurb">
